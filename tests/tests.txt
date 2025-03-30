@@ -1,0 +1,14 @@
+draw - 
+make_window_clickthrough - 
+create_overlay - 
+findScreenText - 
+opaqueScreenImage - 
+showSearchBar - 
+hideWidgets - 
+run - 
+performSearch - 
+
+
+CREATE EVENT HANDLER CLASS  
+set instance and provide specific data, 
+pass to create_overlay function!! 
