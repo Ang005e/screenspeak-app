@@ -3,8 +3,18 @@ from PIL import ImageOps, ImageFilter, Image
 from multipledispatch import dispatch
 from cv2 import rectangle
 from numpy import ndarray
+import sys, os
 
-pytesseract.pytesseract.tesseract_cmd = 'D:\\TAFE\\COMPLETED\\2024_S2\\ICTPRG_440_python\\Computer-Vision-Prototype\\tesseract\\tesseract.exe'
+
+# Determine the base path (works both in development and when bundled)
+if hasattr(sys, '_MEIPASS'):
+    base_path = sys._MEIPASS
+else:
+    base_path = os.getcwd()
+
+# Build the path to tesseract.exe within the bundled folder
+tesseract_path = os.path.join(base_path, 'tesseract', 'tesseract.exe')
+pytesseract.pytesseract.tesseract_cmd = tesseract_path
 
 
 class ImageReader():
