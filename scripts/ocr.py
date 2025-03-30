@@ -3,17 +3,11 @@ from PIL import ImageOps, ImageFilter, Image
 from multipledispatch import dispatch
 from cv2 import rectangle
 from numpy import ndarray
-import sys, os
+import os, sys, util
 
 
-# Determine the base path (works both in development and when bundled)
-if hasattr(sys, '_MEIPASS'):
-    base_path = sys._MEIPASS
-else:
-    base_path = os.getcwd()
-
-# Build the path to tesseract.exe within the bundled folder
-tesseract_path = os.path.join(base_path, 'tesseract', 'tesseract.exe')
+# Build the path to tesseract.exe (compatable with bundling)
+tesseract_path = util.resourcePath(util.buildPath('tesseract','tesseract.exe')) 
 pytesseract.pytesseract.tesseract_cmd = tesseract_path
 
 
@@ -59,6 +53,7 @@ class ImageReader():
         # Preprocess the image: convert to grayscale and sharpen it.
         gray_image = ImageOps.grayscale(image)
         gray_image = gray_image.filter(ImageFilter.SHARPEN)
+        
         
         # Configure pytesseract:
         # --oem 3 uses the default (LSTM) OCR engine.

@@ -1,0 +1,182 @@
+2025-03-30 14:55:33,938 - ERROR - An error occurred
+Traceback (most recent call last):
+  File "d:\TAFE\COMPLETED\2024_S2\ICTPRG_440_python\Computer-Vision-Prototype\scripts\program.py", line 77, in <module>
+    controller = AppController(
+        view,
+    ...<4 lines>...
+        result_image_path
+        )
+TypeError: AppController.__init__() takes 6 positional arguments but 7 were given
+2025-03-30 14:55:48,583 - ERROR - An error occurred
+Traceback (most recent call last):
+  File "d:\TAFE\COMPLETED\2024_S2\ICTPRG_440_python\Computer-Vision-Prototype\scripts\program.py", line 77, in <module>
+    controller = AppController(
+        view,
+    ...<4 lines>...
+        result_image_path
+        )
+TypeError: AppController.__init__() takes 6 positional arguments but 7 were given
+2025-03-30 14:56:09,123 - ERROR - An error occurred
+Traceback (most recent call last):
+  File "d:\TAFE\COMPLETED\2024_S2\ICTPRG_440_python\Computer-Vision-Prototype\scripts\program.py", line 77, in <module>
+    controller = AppController(
+        view,
+    ...<4 lines>...
+        result_image_path
+        )
+TypeError: AppController.__init__() takes 6 positional arguments but 7 were given
+2025-03-30 14:56:24,162 - ERROR - An error occurred
+Traceback (most recent call last):
+  File "d:\TAFE\COMPLETED\2024_S2\ICTPRG_440_python\Computer-Vision-Prototype\scripts\program.py", line 77, in <module>
+    controller = AppController(
+        view,
+    ...<4 lines>...
+        result_image_path
+        )
+TypeError: AppController.__init__() takes 6 positional arguments but 7 were given
+2025-03-30 14:57:25,013 - DEBUG - STREAM b'IHDR' 16 13
+2025-03-30 14:57:25,013 - DEBUG - STREAM b'IDAT' 41 8192
+2025-03-30 14:57:25,081 - DEBUG - STREAM b'IHDR' 16 13
+2025-03-30 14:57:25,081 - DEBUG - STREAM b'IDAT' 41 8192
+2025-03-30 14:57:25,149 - DEBUG - STREAM b'IHDR' 16 13
+2025-03-30 14:57:25,149 - DEBUG - STREAM b'IDAT' 41 8192
+2025-03-30 14:57:25,447 - DEBUG - STREAM b'IHDR' 16 13
+2025-03-30 14:57:25,447 - DEBUG - STREAM b'IDAT' 41 8192
+2025-03-30 14:57:25,649 - DEBUG - STREAM b'IHDR' 16 13
+2025-03-30 14:57:25,649 - DEBUG - STREAM b'IDAT' 41 8192
+2025-03-30 14:57:31,081 - DEBUG - STREAM b'IHDR' 16 13
+2025-03-30 14:57:31,081 - DEBUG - STREAM b'IDAT' 41 8192
+2025-03-30 14:57:31,134 - DEBUG - STREAM b'IHDR' 16 13
+2025-03-30 14:57:31,134 - DEBUG - STREAM b'IDAT' 41 8192
+2025-03-30 14:57:31,999 - DEBUG - ['D:\\TAFE\\COMPLETED\\2024_S2\\ICTPRG_440_python\\Computer-Vision-Prototype\\tesseract\\tesseract.exe', 'C:\\Users\\Tully\\AppData\\Local\\Temp\\tess_zweeyoel_input.PNG', 'C:\\Users\\Tully\\AppData\\Local\\Temp\\tess_zweeyoel', '-c', 'tessedit_create_tsv=1', '--oem', '3', '--psm', '6']
+2025-03-30 14:57:34,825 - DEBUG - STREAM b'IHDR' 16 13
+2025-03-30 14:57:34,825 - DEBUG - STREAM b'IDAT' 41 8192
+2025-03-30 14:57:34,873 - DEBUG - STREAM b'IHDR' 16 13
+2025-03-30 14:57:34,873 - DEBUG - STREAM b'IDAT' 41 8192
+2025-03-30 14:57:58,457 - DEBUG - STREAM b'IHDR' 16 13
+2025-03-30 14:57:58,457 - DEBUG - STREAM b'IDAT' 41 8192
+2025-03-30 14:57:58,527 - DEBUG - STREAM b'IHDR' 16 13
+2025-03-30 14:57:58,527 - DEBUG - STREAM b'IDAT' 41 8192
+2025-03-30 14:57:58,596 - DEBUG - STREAM b'IHDR' 16 13
+2025-03-30 14:57:58,596 - DEBUG - STREAM b'IDAT' 41 8192
+2025-03-30 14:57:58,881 - DEBUG - STREAM b'IHDR' 16 13
+2025-03-30 14:57:58,881 - DEBUG - STREAM b'IDAT' 41 8192
+2025-03-30 14:57:59,072 - DEBUG - STREAM b'IHDR' 16 13
+2025-03-30 14:57:59,072 - DEBUG - STREAM b'IDAT' 41 8192
+2025-03-30 14:58:04,368 - DEBUG - STREAM b'IHDR' 16 13
+2025-03-30 14:58:04,368 - DEBUG - STREAM b'IDAT' 41 8192
+2025-03-30 14:58:04,420 - DEBUG - STREAM b'IHDR' 16 13
+2025-03-30 14:58:04,420 - DEBUG - STREAM b'IDAT' 41 8192
+2025-03-30 14:58:05,316 - DEBUG - ['D:\\TAFE\\COMPLETED\\2024_S2\\ICTPRG_440_python\\Computer-Vision-Prototype\\tesseract\\tesseract.exe', 'C:\\Users\\Tully\\AppData\\Local\\Temp\\tess_7jxxramj_input.PNG', 'C:\\Users\\Tully\\AppData\\Local\\Temp\\tess_7jxxramj', '-c', 'tessedit_create_tsv=1', '--oem', '3', '--psm', '6']
+2025-03-30 14:58:08,657 - DEBUG - STREAM b'IHDR' 16 13
+2025-03-30 14:58:08,657 - DEBUG - STREAM b'IDAT' 41 8192
+2025-03-30 14:58:08,704 - DEBUG - STREAM b'IHDR' 16 13
+2025-03-30 14:58:08,704 - DEBUG - STREAM b'IDAT' 41 8192
+2025-03-30 15:01:00,872 - DEBUG - STREAM b'IHDR' 16 13
+2025-03-30 15:01:00,872 - DEBUG - STREAM b'IDAT' 41 8192
+2025-03-30 15:01:00,943 - DEBUG - STREAM b'IHDR' 16 13
+2025-03-30 15:01:00,943 - DEBUG - STREAM b'IDAT' 41 8192
+2025-03-30 15:01:01,016 - DEBUG - STREAM b'IHDR' 16 13
+2025-03-30 15:01:01,016 - DEBUG - STREAM b'IDAT' 41 8192
+2025-03-30 15:01:01,327 - DEBUG - STREAM b'IHDR' 16 13
+2025-03-30 15:01:01,327 - DEBUG - STREAM b'IDAT' 41 8192
+2025-03-30 15:01:01,526 - DEBUG - STREAM b'IHDR' 16 13
+2025-03-30 15:01:01,526 - DEBUG - STREAM b'IDAT' 41 8192
+2025-03-30 15:01:05,938 - DEBUG - STREAM b'IHDR' 16 13
+2025-03-30 15:01:05,938 - DEBUG - STREAM b'IDAT' 41 8192
+2025-03-30 15:01:05,996 - DEBUG - STREAM b'IHDR' 16 13
+2025-03-30 15:01:05,996 - DEBUG - STREAM b'IDAT' 41 8192
+2025-03-30 15:01:06,901 - DEBUG - ['D:\\TAFE\\COMPLETED\\2024_S2\\ICTPRG_440_python\\Computer-Vision-Prototype\\tesseract/tesseract.exe', 'C:\\Users\\Tully\\AppData\\Local\\Temp\\tess_ebcnroww_input.PNG', 'C:\\Users\\Tully\\AppData\\Local\\Temp\\tess_ebcnroww', '-c', 'tessedit_create_tsv=1', '--oem', '3', '--psm', '6']
+2025-03-30 15:01:10,189 - DEBUG - STREAM b'IHDR' 16 13
+2025-03-30 15:01:10,189 - DEBUG - STREAM b'IDAT' 41 8192
+2025-03-30 15:01:10,237 - DEBUG - STREAM b'IHDR' 16 13
+2025-03-30 15:01:10,237 - DEBUG - STREAM b'IDAT' 41 8192
+2025-03-30 15:01:16,097 - DEBUG - STREAM b'IHDR' 16 13
+2025-03-30 15:01:16,097 - DEBUG - STREAM b'IDAT' 41 8192
+2025-03-30 15:01:16,148 - DEBUG - STREAM b'IHDR' 16 13
+2025-03-30 15:01:16,148 - DEBUG - STREAM b'IDAT' 41 8192
+2025-03-30 15:01:17,026 - DEBUG - ['D:\\TAFE\\COMPLETED\\2024_S2\\ICTPRG_440_python\\Computer-Vision-Prototype\\tesseract/tesseract.exe', 'C:\\Users\\Tully\\AppData\\Local\\Temp\\tess_ozjbswqu_input.PNG', 'C:\\Users\\Tully\\AppData\\Local\\Temp\\tess_ozjbswqu', '-c', 'tessedit_create_tsv=1', '--oem', '3', '--psm', '6']
+2025-03-30 15:01:20,324 - DEBUG - STREAM b'IHDR' 16 13
+2025-03-30 15:01:20,324 - DEBUG - STREAM b'IDAT' 41 8192
+2025-03-30 15:01:20,375 - DEBUG - STREAM b'IHDR' 16 13
+2025-03-30 15:01:20,375 - DEBUG - STREAM b'IDAT' 41 8192
+2025-03-30 15:15:44,802 - DEBUG - STREAM b'IHDR' 16 13
+2025-03-30 15:15:44,802 - DEBUG - STREAM b'IDAT' 41 8192
+2025-03-30 15:15:44,874 - DEBUG - STREAM b'IHDR' 16 13
+2025-03-30 15:15:44,874 - DEBUG - STREAM b'IDAT' 41 8192
+2025-03-30 15:15:44,948 - DEBUG - STREAM b'IHDR' 16 13
+2025-03-30 15:15:44,948 - DEBUG - STREAM b'IDAT' 41 8192
+2025-03-30 15:15:45,258 - DEBUG - STREAM b'IHDR' 16 13
+2025-03-30 15:15:45,258 - DEBUG - STREAM b'IDAT' 41 8192
+2025-03-30 15:15:45,458 - DEBUG - STREAM b'IHDR' 16 13
+2025-03-30 15:15:45,458 - DEBUG - STREAM b'IDAT' 41 8192
+2025-03-30 15:15:49,758 - DEBUG - STREAM b'IHDR' 16 13
+2025-03-30 15:15:49,758 - DEBUG - STREAM b'IDAT' 41 8192
+2025-03-30 15:15:49,817 - DEBUG - STREAM b'IHDR' 16 13
+2025-03-30 15:15:49,817 - DEBUG - STREAM b'IDAT' 41 8192
+2025-03-30 15:22:41,677 - DEBUG - STREAM b'IHDR' 16 13
+2025-03-30 15:22:41,677 - DEBUG - STREAM b'IDAT' 41 8192
+2025-03-30 15:22:41,747 - DEBUG - STREAM b'IHDR' 16 13
+2025-03-30 15:22:41,747 - DEBUG - STREAM b'IDAT' 41 8192
+2025-03-30 15:22:41,816 - DEBUG - STREAM b'IHDR' 16 13
+2025-03-30 15:22:41,816 - DEBUG - STREAM b'IDAT' 41 8192
+2025-03-30 15:22:42,111 - DEBUG - STREAM b'IHDR' 16 13
+2025-03-30 15:22:42,111 - DEBUG - STREAM b'IDAT' 41 8192
+2025-03-30 15:22:42,304 - DEBUG - STREAM b'IHDR' 16 13
+2025-03-30 15:22:42,304 - DEBUG - STREAM b'IDAT' 41 8192
+2025-03-30 15:22:46,398 - DEBUG - STREAM b'IHDR' 16 13
+2025-03-30 15:22:46,398 - DEBUG - STREAM b'IDAT' 41 8192
+2025-03-30 15:22:46,450 - DEBUG - STREAM b'IHDR' 16 13
+2025-03-30 15:22:46,450 - DEBUG - STREAM b'IDAT' 41 8192
+2025-03-30 15:22:47,295 - DEBUG - ['D:\\TAFE\\COMPLETED\\2024_S2\\ICTPRG_440_python\\Computer-Vision-Prototype\\tesseract\\tesseract.exe', 'C:\\Users\\Tully\\AppData\\Local\\Temp\\tess_cy0h9cb6_input.PNG', 'C:\\Users\\Tully\\AppData\\Local\\Temp\\tess_cy0h9cb6', '-c', 'tessedit_create_tsv=1', '--oem', '3', '--psm', '6']
+2025-03-30 15:22:49,974 - DEBUG - STREAM b'IHDR' 16 13
+2025-03-30 15:22:49,974 - DEBUG - STREAM b'IDAT' 41 8192
+2025-03-30 15:22:50,023 - DEBUG - STREAM b'IHDR' 16 13
+2025-03-30 15:22:50,023 - DEBUG - STREAM b'IDAT' 41 8192
+2025-03-30 15:23:04,191 - DEBUG - STREAM b'IHDR' 16 13
+2025-03-30 15:23:04,191 - DEBUG - STREAM b'IDAT' 41 8192
+2025-03-30 15:23:04,243 - DEBUG - STREAM b'IHDR' 16 13
+2025-03-30 15:23:04,243 - DEBUG - STREAM b'IDAT' 41 8192
+2025-03-30 15:23:05,086 - DEBUG - ['D:\\TAFE\\COMPLETED\\2024_S2\\ICTPRG_440_python\\Computer-Vision-Prototype\\tesseract\\tesseract.exe', 'C:\\Users\\Tully\\AppData\\Local\\Temp\\tess_1h0rjwe4_input.PNG', 'C:\\Users\\Tully\\AppData\\Local\\Temp\\tess_1h0rjwe4', '-c', 'tessedit_create_tsv=1', '--oem', '3', '--psm', '6']
+2025-03-30 15:23:08,015 - DEBUG - STREAM b'IHDR' 16 13
+2025-03-30 15:23:08,015 - DEBUG - STREAM b'IDAT' 41 8192
+2025-03-30 15:23:08,064 - DEBUG - STREAM b'IHDR' 16 13
+2025-03-30 15:23:08,064 - DEBUG - STREAM b'IDAT' 41 8192
+2025-03-30 15:23:59,106 - DEBUG - STREAM b'IHDR' 16 13
+2025-03-30 15:23:59,106 - DEBUG - STREAM b'IDAT' 41 8192
+2025-03-30 15:23:59,176 - DEBUG - STREAM b'IHDR' 16 13
+2025-03-30 15:23:59,176 - DEBUG - STREAM b'IDAT' 41 8192
+2025-03-30 15:23:59,244 - DEBUG - STREAM b'IHDR' 16 13
+2025-03-30 15:23:59,244 - DEBUG - STREAM b'IDAT' 41 8192
+2025-03-30 15:23:59,541 - DEBUG - STREAM b'IHDR' 16 13
+2025-03-30 15:23:59,541 - DEBUG - STREAM b'IDAT' 41 8192
+2025-03-30 15:23:59,726 - DEBUG - STREAM b'IHDR' 16 13
+2025-03-30 15:23:59,726 - DEBUG - STREAM b'IDAT' 41 8192
+2025-03-30 15:24:03,605 - DEBUG - STREAM b'IHDR' 16 13
+2025-03-30 15:24:03,605 - DEBUG - STREAM b'IDAT' 41 8192
+2025-03-30 15:24:03,657 - DEBUG - STREAM b'IHDR' 16 13
+2025-03-30 15:24:03,657 - DEBUG - STREAM b'IDAT' 41 8192
+2025-03-30 15:24:04,527 - DEBUG - ['D:\\TAFE\\COMPLETED\\2024_S2\\ICTPRG_440_python\\Computer-Vision-Prototype\\tesseract\\tesseract.exe', 'C:\\Users\\Tully\\AppData\\Local\\Temp\\tess_azi9y6rq_input.PNG', 'C:\\Users\\Tully\\AppData\\Local\\Temp\\tess_azi9y6rq', '-c', 'tessedit_create_tsv=1', '--oem', '3', '--psm', '6']
+2025-03-30 15:24:07,546 - DEBUG - STREAM b'IHDR' 16 13
+2025-03-30 15:24:07,546 - DEBUG - STREAM b'IDAT' 41 8192
+2025-03-30 15:24:07,594 - DEBUG - STREAM b'IHDR' 16 13
+2025-03-30 15:24:07,595 - DEBUG - STREAM b'IDAT' 41 8192
+2025-03-30 15:47:10,063 - DEBUG - STREAM b'IHDR' 16 13
+2025-03-30 15:47:10,063 - DEBUG - STREAM b'IDAT' 41 8192
+2025-03-30 15:47:10,137 - DEBUG - STREAM b'IHDR' 16 13
+2025-03-30 15:47:10,137 - DEBUG - STREAM b'IDAT' 41 8192
+2025-03-30 15:47:10,212 - DEBUG - STREAM b'IHDR' 16 13
+2025-03-30 15:47:10,212 - DEBUG - STREAM b'IDAT' 41 8192
+2025-03-30 15:47:10,522 - DEBUG - STREAM b'IHDR' 16 13
+2025-03-30 15:47:10,522 - DEBUG - STREAM b'IDAT' 41 8192
+2025-03-30 15:47:10,722 - DEBUG - STREAM b'IHDR' 16 13
+2025-03-30 15:47:10,722 - DEBUG - STREAM b'IDAT' 41 8192
+2025-03-30 15:47:14,869 - DEBUG - STREAM b'IHDR' 16 13
+2025-03-30 15:47:14,869 - DEBUG - STREAM b'IDAT' 41 8192
+2025-03-30 15:47:14,922 - DEBUG - STREAM b'IHDR' 16 13
+2025-03-30 15:47:14,922 - DEBUG - STREAM b'IDAT' 41 8192
+2025-03-30 15:47:15,830 - DEBUG - ['D:\\TAFE\\COMPLETED\\2024_S2\\ICTPRG_440_python\\Computer-Vision-Prototype\\tesseract\\tesseract.exe', 'C:\\Users\\Tully\\AppData\\Local\\Temp\\tess_ww_j19gz_input.PNG', 'C:\\Users\\Tully\\AppData\\Local\\Temp\\tess_ww_j19gz', '-c', 'tessedit_create_tsv=1', '--oem', '3', '--psm', '6']
+2025-03-30 15:47:19,179 - DEBUG - STREAM b'IHDR' 16 13
+2025-03-30 15:47:19,179 - DEBUG - STREAM b'IDAT' 41 8192
+2025-03-30 15:47:19,231 - DEBUG - STREAM b'IHDR' 16 13
+2025-03-30 15:47:19,231 - DEBUG - STREAM b'IDAT' 41 8192

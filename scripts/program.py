@@ -1,9 +1,12 @@
 
 # import keyboard # use keyboard so that search can be accessed even when focus is not on the tkinter app
-
 from appmodel import AppModel
 from appview import AppView
 from appcontroller import AppController
+import logging
+import util
+
+
 # Note: ** marks a completed feature
 
 # ideas:
@@ -52,14 +55,32 @@ from appcontroller import AppController
 #   - .
 
 
-# clear_image = ImageController('./images/default_image.png')
+image_folder_name = 'images'
+canvas_image_path = util.resourcePath(util.buildPath(image_folder_name, 'canvas_image.png'))
+search_image_path = util.resourcePath(util.buildPath(image_folder_name, 'search_image.png')) 
+result_image_path = util.resourcePath(util.buildPath(image_folder_name, 'result_image.png'))
 
-view = AppView()
-model = AppModel()
+logging.basicConfig(filename='app_debug.log', level=logging.DEBUG,
+                    format='%(asctime)s - %(levelname)s - %(message)s')
 
-controller = AppController(view, model, './images/canvas_image.png', './images/search_image.png', './images/result_image.png')
+try:
 
-# screen_reader = ocr.ImageReader()
+    view = AppView()
+    model = AppModel()
+
+    controller = AppController(
+        view, 
+        model,
+        canvas_image_path, 
+        search_image_path, 
+        result_image_path
+        )
+
+    if __name__ == '__main__':
+        controller.begin()
+
+except Exception as e:
+    logging.exception("An error occurred")
 
 """
 def loadEvent():
@@ -88,11 +109,4 @@ AppController.enter = showEvent
 AppController.search = searchEvent
 AppController.load = loadEvent
 """
-
-
-if __name__ == '__main__':
-    controller.begin()
-
-
-
 

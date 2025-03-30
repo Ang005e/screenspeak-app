@@ -21,15 +21,6 @@ class AppView():
 
         self.create(self.root)
 
-        """        
-        self.result_image = PhotoImage() # placeholder
-
-        widgets : list[tk.Widget] = [self.txt_searchbar, self.image_panel, 
-                                     self.searchbar_stringvar, self.result_image]
-        for element in widgets: 
-            element.master = self.root
-        """
-
     def create(self, root):
 
         width, height = pyautogui.size()
@@ -97,3 +88,4 @@ class AppView():
     def applyImage(self, newImage: PhotoImage):
         self.result_image = newImage
         self.image_panel.configure(image=self.result_image)
+        self.image_panel.update()
