@@ -6,7 +6,7 @@ class AppModel():
 
     _image_reader = ImageReader()
 
-    def performSearch(self, search_text: str, search_image: ImageController, output_image: ImageController):
+    def locateText(self, search_text: str, search_image: ImageController, output_image: ImageController):
         # carry out a search, and return the results
 
         print(f"Searching for: {search_text}")
@@ -21,3 +21,5 @@ class AppModel():
         output_image.overwriteWith(highlighted_image)
 
         return output_image
+    
+    

@@ -3,7 +3,7 @@ from PIL import ImageOps, ImageFilter, Image
 from multipledispatch import dispatch
 from cv2 import rectangle
 from numpy import ndarray
-import os, sys, util
+import util
 
 
 # Build the path to tesseract.exe (compatable with bundling)

@@ -1,8 +1,8 @@
 from appview import AppView
 from appmodel import AppModel
 from appshared import ImageController, GuiImage, MatlikeImage, PilImage
+import util
 
-from pyautogui import screenshot
 
 # TODO: 
 # * Change the AppImage class to be accessed only by the controller (remove from View).
@@ -25,8 +25,8 @@ class AppController():
         self.canvas_images = ImageController(markup_image_path, [GuiImage, MatlikeImage, PilImage])
 
         # View event bindings
-        self.view.root.bind('<Alt-F12>', lambda x: self.enter(x))
-        self.view.root.bind('<Return>', lambda x: self.search(x))
+        # self.view.root.bind('<Alt-F12>', lambda x: self.activateSearch(x)) now handled by ctypes
+        self.view.root.bind('<Return>', lambda x: self.performSearch(x))
         self.view.root.bind('<Escape>', lambda x: self.cancel(x))
         self.view.root.after_idle(self.load)
 
@@ -42,12 +42,16 @@ class AppController():
         self.canvas_images.initialiseGuiImage()
         self.search_images.initialiseGuiImage()
         self.canvas_images.clear()
-        self.result_images.clear()
         self.view.applyImage(self.canvas_images.asPhotoImage())
+
+        # wire up the "search" hotkey
+        util.createHotkeyListener(self.activateSearch)
+
+        return
 
     # Occurs when the user attempts to search for text (the user must have specified text to be searched for).
     # Should initiate program search logic.
-    def search(self, event):
+    def performSearch(self, event):
         # perform search and return result
         # display result on the GUI
 
@@ -55,7 +59,7 @@ class AppController():
         self.canvas_images.clear()
 
         self.search_images.overwriteWithScreenshot()
-        self.result_images = self.model.performSearch(self.view.searchbar_stringvar.get(), self.search_images, self.result_images)
+        self.result_images = self.model.locateText(self.view.searchbar_stringvar.get(), self.search_images, self.result_images)
 
         self.canvas_images.overwriteWith(self.result_images.asMatLike())
         self.view.applyImage(self.canvas_images.asPhotoImage())
@@ -64,7 +68,7 @@ class AppController():
 
     # Occurs when the user attempts to enter the application. 
     # Should bring the application into focus and prompt text entry.
-    def enter(self, event):
+    def activateSearch(self):
         self.view.showSearchbar() # unhide search bar and bring into focus      # self.view.txt_searchbar
         return
         

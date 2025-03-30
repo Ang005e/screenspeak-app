@@ -11,7 +11,7 @@ block_cipher = None
 project_root = path.abspath(".")
 
 a = Analysis(
-    ['scripts/program.py'],  # main entry point
+    ['app/program.py'],  # main entry point
     pathex=[project_root],
     binaries=[],
     datas=[
@@ -20,7 +20,7 @@ a = Analysis(
         # Include tesseract folder with tesseract.exe
         ('tesseract', 'tesseract'),
     ],
-    hiddenimports=[],
+    hiddenimports=['pytesseract', 'pytesseract.pytesseract'],
     hookspath=[],
     runtime_hooks=[],
     excludes=["old_program", "unit_test"],  # Exclude development files
