@@ -13,3 +13,4 @@ TODO:
 - add loading indicator while searching
 - reduce application footprint 
 - optimise application
+- transfer to C#
