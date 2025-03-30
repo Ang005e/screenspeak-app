@@ -1,9 +1,3 @@
-# created by tools/tclZIC.tcl - do not edit
-
-set TZData(:Asia/Dili) {
-    {-9223372036854775808 30140 0 LMT}
-    {-1830412800 28800 0 %z}
-    {-879152400 32400 0 %z}
-    {199897200 28800 0 %z}
-    {969120000 32400 0 %z}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:61710475d3fcdda8cd19c659112c91d422d4a944208f34614b3c25d29194afb1
+size 231

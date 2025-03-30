@@ -1,7 +1,3 @@
-# created by tools/tclZIC.tcl - do not edit
-
-set TZData(:Africa/Bissau) {
-    {-9223372036854775808 -3740 0 LMT}
-    {-1830380400 -3600 0 %z}
-    {157770000 0 0 GMT}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:e94b39b22b972a1ef1d72298ff17fa6ea7612b60ebcbe910d434aad252335327
+size 175

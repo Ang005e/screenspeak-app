@@ -1,2 +1,3 @@
-Version: 1.10.0
-Arguments: ['C:\\Users\\runneradmin\\AppData\\Local\\Temp\\cibw-run-f6dmj7nt\\cp313-win_amd64\\build\\venv\\Scripts\\delvewheel', 'repair', '--add-path', 'D:/a/numpy/numpy/.openblas/lib', '-w', 'C:\\Users\\runneradmin\\AppData\\Local\\Temp\\cibw-run-f6dmj7nt\\cp313-win_amd64\\repaired_wheel', 'C:\\Users\\runneradmin\\AppData\\Local\\Temp\\cibw-run-f6dmj7nt\\cp313-win_amd64\\built_wheel\\numpy-2.2.4-cp313-cp313-win_amd64.whl']
+version https://git-lfs.github.com/spec/v1
+oid sha256:2e30ed4a5d075347ffc92e1b9ea812a7f2227d23bf7db625589b6202037ea31a
+size 446

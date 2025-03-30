@@ -1,10 +1,3 @@
-# created by tools/tclZIC.tcl - do not edit
-
-set TZData(:Africa/Nairobi) {
-    {-9223372036854775808 8836 0 LMT}
-    {-1946168836 9000 0 %z}
-    {-1309746600 10800 0 EAT}
-    {-1261969200 9000 0 %z}
-    {-1041388200 9900 0 %z}
-    {-865305900 10800 0 EAT}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:b17c8e19eef4510639a2e137559cf98e9f09ae139f436944e298f029f52ab68b
+size 268

@@ -1,5 +1,3 @@
-# created by tools/tclZIC.tcl - do not edit
-if {![info exists TZData(Europe/Kyiv)]} {
-    LoadTimeZoneFile Europe/Kyiv
-}
-set TZData(:Europe/Kiev) $TZData(:Europe/Kyiv)
+version https://git-lfs.github.com/spec/v1
+oid sha256:05c55f87182f0d5d3e8e6c1f9164eddbdb8035146a0955c04283bc1347d45b30
+size 173

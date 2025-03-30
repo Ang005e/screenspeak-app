@@ -1,13 +1,3 @@
-# created by tools/tclZIC.tcl - do not edit
-
-set TZData(:Asia/Colombo) {
-    {-9223372036854775808 19164 0 LMT}
-    {-2840159964 19172 0 MMT}
-    {-2019705572 19800 0 %z}
-    {-883287000 21600 1 %z}
-    {-862639200 23400 1 %z}
-    {-764051400 19800 0 %z}
-    {832962600 23400 0 %z}
-    {846266400 21600 0 %z}
-    {1145039400 19800 0 %z}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:f4325173bffb21cf10d84074f7388bcc44654b26bd7807f61dc5c8d7f7da1104
+size 352
